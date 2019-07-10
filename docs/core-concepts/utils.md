@@ -341,6 +341,17 @@ const context = utils.ad.getApplicationContext();
 const currentThemeColor: number = utils.ad.resources.getPalleteColor("resource_color_name", context);
 ```
 
+#### openFile() function
+
+Opens file with associated application, while using file path.
+
+```JavaScript
+utilsModule.openFile(<file_path>);
+```
+```TypeScript
+utils.openFile(<file_path>);
+```
+
 ### iOS
 
 #### jsArrayToNSArray() function
